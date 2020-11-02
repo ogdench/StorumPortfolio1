@@ -47,15 +47,16 @@ header {
 /* TODO: Add property:value pairs to set the width and height of the footer element. Give it a background color. add a border, and center its text.
 Look at the index.html to see what the footer element creates on the page*/
 footer {
-  
-	margin: 5px auto;
+
   color:#ffffff;
   background: linear-gradient(to bottom right, #A09B98,#000000);
   border: 2px solid #000000;
   border-radius: 25px;
   text-align:center;
   height: 60px;
-  width: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /* TODO: Add property:value pairs to set the width and height of the section element. Give it a background color. You may need to set it's top margin to create some space between the beginning of the main section and the end of the navigation bar. Look at the index.html to see what the section element creates on the page*/
