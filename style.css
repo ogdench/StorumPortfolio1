@@ -54,8 +54,8 @@ footer {
   border-radius: 25px;
   text-align:center;
   height: 60px;
-  position: absolute;
-  bottom: 0;
+  bottom: 20;
+  border-top: 20;
   width: 100%;
 }
 
