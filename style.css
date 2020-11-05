@@ -7,7 +7,7 @@ of the page, the font type, and the font size */
 body {
 	margin: 0 auto;  
   width: 940px;
-  background: linear-gradient(to bottom right,#0AABDE 10%, #1B42D2 90%);
+  background: linear-gradient(to bottom right,#FFFFFF, #000000);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -30,17 +30,16 @@ h1 {
 of the h3 element and make its text centered. Look at the index.html to see what the h3 element creates on the page*/
 h3 {
 text-align:center;
-color: #EB6A0B;
+color: #000000;
 }
 
 /* TODO: Add property:value pairs to set the width and height of the header element. Give it a background color. add a border, and center its text. Look at the index.html to see what the header element creates on the page*/
 header {
 	margin: 5px auto;
   text-align:center;
-  background: linear-gradient(to bottom right, #F61D07,#EFF607);
-  border: 2px solid #000000;
+  background: linear-gradient(to bottom right, #000000,#FFFFFF);
   border-radius: 25px;
-  height: 80px;
+  height: 55px;
   width: 400px;
 }
 
